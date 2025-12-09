@@ -1,5 +1,6 @@
 #pragma once
 #include <vector>
+#include<iostream>
 using std::vector;
 template<typename T, typename E>
 class CResult {

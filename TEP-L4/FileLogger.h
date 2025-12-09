@@ -11,7 +11,7 @@ public:
 	FileLogger();
 	~FileLogger();
 	template<typename T>
-	void log(const CResult<T, CError>& result);
+	void log(CResult<T, CError>& result);
 };
 
 #endif

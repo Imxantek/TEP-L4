@@ -313,6 +313,20 @@ void CTree::print(CNode* node) const {
 
 }
 
+std::string CTree::toString() const {
+    return toString(root);
+}
+std::string CTree::toString(CNode* node) const {
+    if (!node) {
+        return "";
+    }
+    std::string result = node->getVal() + " ";
+    for (int i = 0; i < node->childCount(); i++) {
+        result += toString(node->getChild(i));
+    }
+    return result;
+}
+
 bool CTree::containsVars() {
     for (std::map<std::string, int>::iterator it = dict.begin(); it != dict.end(); ++it) {
         std::string key = it->first;

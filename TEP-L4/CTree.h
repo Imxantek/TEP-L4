@@ -19,6 +19,9 @@ public:
 	CTree& operator=(const CTree& pcOther);
 	CTree operator+(const CTree& pcOther) const;
 
+	std::string toString() const;
+	std::string toString(CNode* node) const;
+
 	std::string getToken(std::string& exp, int& pos);
 	CNode* parse(std::string& exp, int& pos);
 	int arityOf(const std::string& token) const;

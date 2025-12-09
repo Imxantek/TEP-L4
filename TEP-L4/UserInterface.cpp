@@ -71,6 +71,7 @@ void UI::run() {
 		}
 		else if (sel == "exit") {
 			std::cout << "Thank you for using my program\n Goodbye!";
+
 			isRunning = false;
 		}
 		else {
