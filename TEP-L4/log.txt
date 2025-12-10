@@ -1,8 +1,0 @@
-Operation succeeded. Current CTree:
-+ 1 2 
-Operation failed with errors:
-- Not enough operands
-Operation failed with errors:
-- Too many operands
-Operation succeeded. Current CTree:
-/ 1 0 
