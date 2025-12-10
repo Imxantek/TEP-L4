@@ -174,4 +174,3 @@ void CResult<void, E>::printErrors() const {
         std::cout << v_errors[i]->strGetMessage() << std::endl;
     }
 }
-//

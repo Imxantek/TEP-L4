@@ -31,7 +31,6 @@ void FileLogger::log(CResult<void, CError>& result) {
 	}
 	
 }
-//
 
 template<>
 void FileLogger::log(CResult<CTree*, CError>& result) {

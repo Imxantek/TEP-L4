@@ -13,4 +13,3 @@ public:
 };
 
 #endif // CERROR_H_
-//

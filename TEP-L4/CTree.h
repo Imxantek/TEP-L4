@@ -43,4 +43,3 @@ public:
 	CNode* getRoot() const;
 };
 #endif
-//

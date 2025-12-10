@@ -47,4 +47,3 @@ public:
 
 
 #include "CResult.tpp"
-//
