@@ -21,3 +21,4 @@ public:
 };
 
 #endif //CNODE_H_
+//

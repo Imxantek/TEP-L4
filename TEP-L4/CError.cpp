@@ -10,3 +10,4 @@ CError::CError(const CError& other){
 std::string CError::strGetMessage() const {
 	return str_message;
 }
+//
